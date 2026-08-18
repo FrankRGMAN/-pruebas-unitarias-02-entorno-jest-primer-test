@@ -1,0 +1,12 @@
+PASS tests/tareas.test.ts
+  GET /tareas
+    √ debe responder con código de estado 200 (18 ms)
+    √ debe devolver un arreglo (3 ms)
+    √ debe contener al menos una tarea (3 ms)
+    √ cada tarea debe tener las propiedades id, titulo, completada y descripcion (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        1.371 s, estimated 2 s
+Ran all test suites.
